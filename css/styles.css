@@ -1,29 +1,202 @@
+/* Apple's color scheme for the MBP
+   webpage:
+
+   background: #FFFFFF
+   navbar background: #333333
+   heading text: #111111
+   promo background: #F2F2F2
+   most text: #525252
+   link text: #0070C9
+   other background: #FAFAFA
+   bottom backgrounds: #F5F5F7
+   */
+
 body {
   background-color: white;
   font-family: "SF Pro Text", "Roboto", "Helvetica Neue", "Helvetica",
     "Open Sans", "Arial", "sans-serif";
-  padding: 25px;
 }
 
 .mbp-navbar {
-  background-color: #222222;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.mbp-icon {
-  font-size: 40px;
+.mbp-navbar-items {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
 }
 
-.mbp-font-navbar {
-  font-family: "SOMETHING", sans-serif;
-  font-size: 42px;
+.mbp-navbar-link {
+  color: white;
+}
+
+#mbp-title-row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mbp-title-links {
+  font-size: 14px;
+  text-align: right;
+  font-weight: lighter;
+}
+
+.mbp-title-link {
+  margin-left: 25px;
+}
+
+.mbp-title-link:hover {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+#mbp-promo-row {
+  background-color: #f2f2f2;
+  border-top: 1px solid #c2c2c2;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.mbp-promo-link {
+  color: #0070c9;
+}
+
+.mbp-promo-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#mbp-choose-area {
+  padding-top: 25px;
+  text-align: center;
+}
+
+#img-1316 {
+  margin-top: 25px;
+}
+
+#mbp-p-choose {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+#mbp-p-choose-link {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.mbp-model-photos {
+  text-align: center;
+}
+
+.mbp-photo {
+  width: 50%;
+}
+
+.mbp-left-model-details {
+  padding-left: 80px;
+  margin-top: 35px;
+}
+
+.mbp-right-model-details {
+  border-left: 1px solid #333333;
+  padding-left: 50px;
+  margin-top: 35px;
+}
+
+.mbp-new-text {
+  color: #f35b21;
+}
+
+.mbp-p-details {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 12px;
+}
+
+.mbp-p-details-link {
+  color: #0070c9;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 12px;
+}
+
+.mbp-p-details-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.select-button {
+  width: 250px;
+  background-color: #2277ff;
+  color: white;
+  border-radius: 6px;
+}
+
+.select-button:hover {
+  background-color: #4499ff;
+}
+
+.heart-icon {
+  font-size: 28px;
+  color: #2277ff;
+  margin-left: 20px;
+}
+
+.small-delivery-dates {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.small-delivery-dates-link {
+  color: #0070c9;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.small-delivery-dates-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.td-align-top {
+  vertical-align: top;
+}
+
+h1 {
+  color: #111111;
+  font-size: 38px;
+  margin-top: 25px;
 }
 
 h2 {
-  font-size: 38px;
+  color: #111111;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 13px;
+  margin-bottom: 3px;
 }
 
 hr {
