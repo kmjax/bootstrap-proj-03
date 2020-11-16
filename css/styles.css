@@ -1,0 +1,97 @@
+body {
+  background-color: white;
+  font-family: "SF Pro Text", "Roboto", "Helvetica Neue", "Helvetica",
+    "Open Sans", "Arial", "sans-serif";
+  padding: 25px;
+}
+
+.mbp-navbar {
+  background-color: #222222;
+}
+
+.mbp-icon {
+  font-size: 40px;
+}
+
+.mbp-font-navbar {
+  font-family: "SOMETHING", sans-serif;
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+hr {
+  border: 1px solid lightgray;
+}
+
+#header-area {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#promo-area {
+  background-color: lightgray;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 200px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+#mbp-pro-area {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#compare-area {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#applecare-area {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#shopping4biz-area {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#legaldisclaimers-area {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#bottomlinks-area {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#footer-area {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 10px;
+}
+
+.mbp-image {
+  margin: 5px;
+}
